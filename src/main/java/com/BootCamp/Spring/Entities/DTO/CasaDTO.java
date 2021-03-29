@@ -7,9 +7,9 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-@AllArgsConstructor
 public class CasaDTO {
     private String Nombre;
     private String Direccion;
-    private List<Habitacion> habitaciones;
+    private List<HabitacionDTO> habitaciones;
+
 }

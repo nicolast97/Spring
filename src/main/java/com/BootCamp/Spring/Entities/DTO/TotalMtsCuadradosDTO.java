@@ -6,5 +6,6 @@ import lombok.Data;
 public class TotalMtsCuadradosDTO {
 
     private Double totalmtsCuadrados;
+    private Double precioUSD;
 
 }
